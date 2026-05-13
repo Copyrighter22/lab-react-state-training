@@ -10,7 +10,7 @@ function ClickablePicture() {
   return (
     <div>
       <img
-        style={{ width: 200, height: 200 }}
+        style={{ width: 200, height: 200, marginBottom: 10 }}
         onClick={updatePicture}
         src={
           picture === false
